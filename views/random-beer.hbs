@@ -1,0 +1,10 @@
+<ul>
+    {{#each responseFromAPI}}
+    {{!-- @index, @key, @first (first iteration of loop), @last--}}
+    <img src="{{this.image_url}}" />
+    <h4>{{this.name}}</h4>
+    <h4>{{this.tagline}}</h4>
+    <h4>{{this.description}}</h4>
+
+    {{/each}}
+</ul>
