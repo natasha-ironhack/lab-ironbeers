@@ -3,7 +3,6 @@ each.data and then for every element show me name of beer and
  image of beer b/c each object is one of the beers.
 in terminal you see how all elements are structured. --}}
 
-<ul>
     {{#each data}}
     {{!-- @index, @key, @first (first iteration of loop), @last--}}
  {{!--<img src="{{this.image_url}}" /> --}}
@@ -11,4 +10,3 @@ in terminal you see how all elements are structured. --}}
  {{> beerpartials this}}
 
     {{/each}}
-</ul>
