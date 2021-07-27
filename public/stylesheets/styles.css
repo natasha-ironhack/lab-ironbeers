@@ -10,17 +10,14 @@ h1 {
     font-size: 30px;
 }
 
-.cards {
+.row, 
+.row-cols-1, 
+.row-cols-md-3, 
+.g-4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-.card {
-    width: 300px;
+    width: 200px;
     margin: 20px;
 }
 
-.card-title {
-    height: 10px;
-}
