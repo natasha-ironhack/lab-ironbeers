@@ -14,7 +14,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-content: center;
     width: 100vw;
     margin: 20px;
@@ -24,7 +24,25 @@ h1 {
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
-      justify-content: space-evenly;
+      justify-content: space-between;
       width: 100vw;
       margin: 20px;
+}
+
+.random-image {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    margin: 20px;
+}
+
+.random-cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    margin: 20px;
 }
